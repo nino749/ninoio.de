@@ -1,0 +1,216 @@
+:root {
+    --bc: 164.91 100% 7.5686%;
+}
+body {
+    font-family: "Kanit", "lato", sans-serif;
+    background-size: fill;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.fa-regular {
+    padding-top: 6px;
+    padding-bottom: 6px;
+    cursor: pointer;
+    font-size: 120%;
+    color: white;
+    cursor: pointer;
+    --fa-animation-iteration-count: infinite;
+}
+.vid {
+    margin-top: 0%;
+    color: #fff;
+    text-align: center;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.git, .git-txt, .x, .x-txt, .vid-link{
+    margin-top: 0%;
+    text-decoration: underline white;
+    cursor: pointer;
+    color: #fff;
+    text-align: center;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.git a, .x a{
+    float: left;
+    display: block;
+}
+.git a:hover, .x a:hover {
+    --tw-border-opacity: 0;
+    background-color: hsl(var(--bc) / var(--tw-bg-opacity));
+    --tw-bg-opacity: .2;
+    border-radius: 15px;
+    border: 5px;
+}
+.fine{
+    margin-top: 50%;
+    text-align: center;
+    padding: 8%;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.great, .how, .hey, .why{
+    margin-top: 50%;
+    text-align: center;
+    padding: 8%;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    cursor: default;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.site {
+    margin-top: 10%;
+}
+.footer, .site{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+}
+.content {
+    height: 1000px;
+}
+.p {
+    color: rgba(255, 255, 255, 0.78);
+    margin: 20%;
+    margin-top: 50%;
+}
+.first {
+    align-items: center;
+}
+.first-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 75px;
+}
+.first2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 25px;
+}
+.arrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 25px;
+}
+/* The navbar container */
+.topnav {
+    position: fixed;
+    width: 50%;
+    color: #fff;
+}
+/* Navbar */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.topnav a:hover {
+    --tw-border-opacity: 0;
+    background-color: hsl(var(--bc) / var(--tw-bg-opacity));
+    --tw-bg-opacity: .2;
+    border-radius: 15px;
+}
+/* Navbar-right */
+.topnav-right {
+    height: 40px;
+    position: fixed;
+    overflow: hidden;
+    width: 95%;
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center;
+    margin-right: 8px;
+}
+.topnav-right a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.topnav-right a:hover {
+    --tw-border-opacity: 0;
+    background-color: hsl(var(--bc) / var(--tw-bg-opacity));
+    --tw-bg-opacity: .2;
+    border-radius: 20px;
+}
+.fa-sun {
+    cursor: pointer;
+    font-size: 120%;
+    color: white;
+    cursor: pointer;
+}
+#switchbtn {
+    align-content: center;
+    --tw-bg-opacity: 0;
+    --tw-border-opacity: 0;
+    background-color: hsl(var(--bc) / var(--tw-bg-opacity));
+    border: none;}
+/* logo */
+.logo {
+    color: White;
+    font-size: 25px;
+    text-decoration: none;
+    font-family: "poppins", "Kanit", "lato", sans-serif;
+}
+/* grid */
+.grid-container {
+    position: fixed;
+    display: grid;
+}
+.topnav-right-div {
+    grid-column: 2;
+    grid-row: 1 / span 2;
+    font-size: 120%;
+    color: White;
+}
+.topnav-div {
+    grid-column: 1 / span 2;
+    grid-row: 1;
+}
+.container {
+    height: 200vh;
+    padding: 20px;
+}
+.hidden-text {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 1s ease-out, transform 1s ease-out;
+    margin: 20px 0;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.hidden-text.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
